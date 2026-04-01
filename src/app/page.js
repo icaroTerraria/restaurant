@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { poppins, dancingScript } from "./layout";
+import Card from "@/app/Componentes/Card/page.jsx";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -13,6 +13,9 @@ export default function Home() {
             refinados</p>
         </div>
       </header>
+      <main>
+        <Card/>
+      </main>
     
     
     </>

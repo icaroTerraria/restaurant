@@ -1,4 +1,30 @@
 .cabeca{
-  
+  background: url('/others/banner.png')  center / cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cabeca h1{
+  font-size: 4rem;
+  color: rgb(255, 226, 152);
+  text-transform: uppercase;
+  letter-spacing: 5px ;
+  text-shadow: 
+    0 0 10px rgba(255, 200, 0, 0.8),
+    0 0 20px rgba(255, 160, 0, 0.6),
+    0 0 40px rgba(255, 100, 0, 0.4);
+}
+
+
+.cabeca p{
+  font-size: 2.5rem;
   font-family: var(--font-dancing-script);
+  margin-top: 20px;
+  color: #daa520;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
